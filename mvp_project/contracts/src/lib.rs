@@ -141,7 +141,7 @@ impl FlowVault {
         invoice_mut.status.set(U8::from(2)); // Paid
     }
 
-    pub fn get_invoice(&self, invoice_id: U256) -> (Address, Address, U256, U256, U8, Address, U256, U256) {
+    pub fn get_invoice(&self, invoice_id: U256) -> (Address, Address, U256, U256, U256, Address, U256, U256) {
         let invoice = self.invoices.get(invoice_id);
         assert!(!invoice.business.get().is_zero(), "Invoice not found");
 
@@ -150,7 +150,7 @@ impl FlowVault {
             invoice.debtor.get(),
             invoice.amount.get(),
             invoice.due_date.get(),
-            invoice.status.get(),
+            U256::from(invoice.status.get().as_limbs()[0]),
             invoice.investor.get(),
             invoice.collateral_amount.get(),
             invoice.insurance_amount.get(),

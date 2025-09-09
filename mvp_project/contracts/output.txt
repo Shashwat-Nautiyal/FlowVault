@@ -1,0 +1,23 @@
+[0;0m[90mBuilding project with Cargo.toml version: 0.1.0[0;0m
+[0;0m[90mstripped custom section from user wasm to remove any sensitive data[0;0m
+[0;0m[90mcontract size: [38;5;48;1m10.5 KiB[0;0m[90m (10774 bytes)[0;0m
+[0;0m[90mwasm size: [38;5;48;1m36.5 KiB[0;0m[90m (37357 bytes)[0;0m
+[0;0m[90mFile used for deployment hash: ./Cargo.lock[0;0m
+[0;0m[90mFile used for deployment hash: ./Cargo.toml[0;0m
+[0;0m[90mFile used for deployment hash: ./deploy.rs[0;0m
+[0;0m[90mFile used for deployment hash: ./rust-toolchain.toml[0;0m
+[0;0m[90mFile used for deployment hash: ./src/lib.rs[0;0m
+[0;0m[90mFile used for deployment hash: ./src/main.rs[0;0m
+[0;0m[90mFile used for deployment hash: ./src/tests.rs[0;0m
+[0;0m[90mproject metadata hash computed on deployment: "0b16ec8e379234be1dc612468bddf506c5f6138557879c5c0759d0c0ecc843db"[0;0m
+[0;0m[90mstripped custom section from user wasm to remove any sensitive data[0;0m
+[0;0m[90mcontract size: [38;5;48;1m10.5 KiB[0;0m[90m (10774 bytes)[0;0m
+[0;0m[90mwasm data fee: [38;5;48;1m0.000084 ETH[0;0m [0;0m[90m(originally [38;5;48;1m0.000070 ETH[0;0m[0;0m[90m with [38;5;183;1m20%[0;0m[90m bump)[0;0m
+[0;0m[90mchecking whether the contract has a constructor...[0;0m
+[0;0m[90mdeployed code at address: [38;5;183;1m0xe326b304b8e94317a369579661e5985a2959648c[0;0m[0;0m
+[0;0m[90mdeployment tx hash: [38;5;183;1m0x7411fb718a94a7f812b876f3fd3ce5be20c2180fd34245f5f1ec2c2a0739ce6e[0;0m[0;0m
+[0;0m[90mcontract activated and ready onchain with tx hash: [38;5;183;1m0xd154321fb2699a7c1ec64582b1600fe32be10ab82ae7f6815d1a8ed62791c1a2[0;0m[0;0m
+
+[38;5;48;1mNOTE: We recommend running cargo stylus cache bid e326b304b8e94317a369579661e5985a2959648c 0 to cache your activated contract in ArbOS.
+Cached contracts benefit from cheaper calls. To read more about the Stylus contract cache, see
+https://docs.arbitrum.io/stylus/how-tos/caching-contracts[0;0m
